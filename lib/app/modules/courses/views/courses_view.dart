@@ -16,7 +16,7 @@ class CoursesView extends GetView<CoursesController> {
       ),
       body:  Center(
         // Home button
-        child: ElevatedButton(onPressed: () => Get.toNamed(Routes.HOME), child: Text('Go to Home')),
+        child: ElevatedButton(onPressed: () => Get.toNamed(Routes.HOME), child: Text('Go to Home Bhuvan')),
       ),
     );
   }
